@@ -1,0 +1,10 @@
+The following procedure is valid for MAC or PC.
+
+1. Install Node.js
+If not already installed, get it here: https://docs.npmjs.com/getting-started/installing-node
+
+It comes with npm (the package manager for acquiring and managing your development libraries)
+-----------------------
+1a ) Install Visual Studio Code Editor
+https://code.visualstudio.com/download
+
