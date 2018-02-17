@@ -1,0 +1,132 @@
+The following procedure is valid for MAC or PC.
+
+1. Install Node.js
+If not already installed, get it here: https://docs.npmjs.com/getting-started/installing-node
+
+It comes with npm (the package manager for acquiring and managing your development libraries)
+
+1a ) Install Visual Studio Code Editor
+https://code.visualstudio.com/download
+
+
+2. 
+Create a new folder for your project somewhere in your drive (preferably the main drive).
+Call it Bootstrap4Course
+Create a new folder for your web app in BootstrapWeb4.
+Call it Bootstrap4WebApp
+
+
+3. Add a package.json file to the project folder
+Then copy/paste the following text:
+
+{
+    "name": "bootstrap-demo",
+    "version": "1.0.0",
+    "description": "Bootstrap 4 Demo Project",
+    "scripts": {
+        "lite": "lite-server --port 10002",
+        "start": "npm run lite"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lite-server": "^1.3.4",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.12.9",
+        "bootstrap": "^4.0.0",
+        "gulp": "^3.9.1"
+    }
+}
+
+
+Create an empty index.html file
+ 
+--------------------------
+
+Create a gulpfile.js
+
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+//style paths
+var sassFiles = 'styles/scss/**/*.scss',
+    cssDest = 'styles/css/';
+
+gulp.task('styles', function () {
+    gulp.src(sassFiles)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(cssDest));
+});
+
+gulp.task('watch', function () {
+    gulp.watch(sassFiles, ['styles']);
+});
+
+
+
+4. 
+
+Install the web server
+In a terminal window (command prompt in Windows) opened on your project folder, run this command:
+
+npm install
+npm install gulp-sass (if gulp-sass not installed. check before running. no harm if run again)
+ 
+npm start
+
+gulp styles
+
+ 
+
+
+
+==================== Ignore===================
+Finally:
+
+npm install lite-server -g
+npm install -g grunt-cli 
+npm install grunt --save-dev
+-------------------------------------------
+
+Customization
+Create folder structure >
+styles
+> css
+> scss
+>> custom.scss
+
+npm install --global gulp
+npm install gulp
+npm install gulp-sass --save-dev 
+
+make sure gulp-sass exists
+-------------------------
+Create gulpfile.js
+
+Copy the below:
+gulpfile.js
+
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+//style paths
+var sassFiles = 'styles/scss/**/*.scss',
+    cssDest = 'styles/css/';
+
+gulp.task('styles', function () {
+    gulp.src(sassFiles)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest(cssDest));
+});
+
+gulp.task('watch', function () {
+    gulp.watch(sassFiles, ['styles']);
+});
+
+------------------------------------------------------------
+
+gulp styles
+
+
+
+
