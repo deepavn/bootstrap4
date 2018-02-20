@@ -1,0 +1,75 @@
+How well do you know css3 ?
+
+Dummie
+Just basics
+Medium or Above Medium level
+
+-------------------------------------------
+
+Do you know html ?
+
+Dummie
+Just basics
+Medium or Above Medium level
+
+-------------------------------------------
+
+How well do you know javascript / jquery ?
+
+Dummie
+Just basics
+Medium or Above Medium level
+
+-------------------------------------------
+
+How well do you know Bootstrap 3?
+
+Dummie
+Basics only
+Medium or Above Medium level
+
+-------------------------------------------
+
+How well do you know Bootstrap 4?
+
+Dummie
+Basics only
+Medium or Above Medium level
+
+-------------------------------------------
+
+Do you know the Grid system in Bootstrap ?
+
+Yes
+No
+
+-------------------------------------------
+
+Did you ever try a website with Bootstrap ? 
+
+Yes
+No
+
+-------------------------------------------
+
+Do you know what is SASS / LESS ?
+
+Yes
+No
+
+-------------------------------------------
+
+Do you know about responsive sites ?
+
+Yes
+No
+
+-------------------------------------------
+
+Why are you learning Bootstrap ?
+
+Out of interest
+As a Pre requisite for other courses
+Required by my company
+Other
+
